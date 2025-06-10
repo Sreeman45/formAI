@@ -98,7 +98,7 @@ export function NavBar() {
         <div className="hidden lg:flex items-center gap-2">
           <Link href="/" prefetch={true} className="flex items-center gap-2">
             <LucideFileAxis3D className="h-5 w-5 text-orange-400" />
-            <span className="font-semibold">Form Axis</span>
+            <span className="font-semibold">formsAI</span>
           </Link>
         </div>
 
