@@ -1,11 +1,12 @@
-#A simple AI form builder for all your needs
-#this project uses pnpm as package manager
-installation:
-#git clone https://github.com/Sreeman45/formAI
-cd formsAI
+# Clone the repository
+git clone https://github.com/Sreeman45/formAI
+
+# Navigate into the project directory
+cd formAI
+
+# Install dependencies using pnpm
 pnpm install
 
-#add enviromental variable in .env file
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
