@@ -5,9 +5,9 @@ import { FormGeneration, formGenerationSchema } from "@/lib/schema";
 
 /**
  * Generates form questions based on the provided prompt using Google's Gemini model
- * @param prompt - User prompt describing the form they want to create
- * @param topics - Optional topics to guide the form generation
- * @returns Generated form with title, description, and questions
+ * @param prompt 
+ * @param topics 
+ * @returns 
  */
 export async function generateFormQuestions(
   prompt: string,
